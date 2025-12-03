@@ -10,17 +10,17 @@ Python script to pull CES exhibitor search results (the same data shown on `http
 ## Usage
 Basic run (prompts for keyword if omitted):
 ```bash
-python ai_studio_code.py
+python ces_crawler.py
 ```
 
 Explicit keyword and output file:
 ```bash
-python ai_studio_code.py --keyword "mobility" --output exhibitors_mobility.csv
+python ces_crawler.py --keyword "mobility" --output exhibitors_mobility.csv
 ```
 
 Adjust page size or search section (defaults shown):
 ```bash
-python ai_studio_code.py --keyword "healthcare" --page-size 200 --show exhibitor
+python ces_crawler.py --keyword "healthcare" --page-size 200 --show exhibitor
 ```
 
 Outputs a CSV with columns:
